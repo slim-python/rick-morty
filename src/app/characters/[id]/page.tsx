@@ -1,7 +1,6 @@
 import { fetchSingleCharacter } from "@/utils/utils";
 import Link from "next/link";
 import React, { Suspense } from "react";
-import Loading from "./loading";
 import Card from "@/app/components/Peoples/Card";
 
 const Page = async (props: any) => {

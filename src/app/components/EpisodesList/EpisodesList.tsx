@@ -37,7 +37,7 @@ const EpisodesList = async () => {
   const episodes = data?.results as Character[];
 
   return (
-    <div className="min-h-screen w-full bg-slate-100 dark:bg-black ">
+    <div className="min-h-screen w-full bg-slate-100 dark:bg-black overflow-x-hidden ">
       <HocFilterData _data={episodes} />
 
       {/* {data && (
